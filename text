@@ -1,0 +1,146 @@
+ <marquee>
+
+Description: Creates scrolling text (deprecated in 5).
+Attributes: behavior (scroll, slide, alternate), direction (left, right, up, down), scrollamount (speed).
+Example:
+ 
+
+ 
+
+<marquee direction="left" scrollamount="10">Scrolling Text Example</marquee>
+
+Output: Scrolling text moves left at a faster speed.
+2. <details>
+
+Description: Creates a collapsible section.
+Attributes: open (makes the section expanded by default).
+Example:
+ 
+
+ 
+
+<details open>
+
+  <summary>Click to expand</summary>
+
+  Hidden content here!
+
+</details>
+
+Output: A collapsible section that is expanded by default.
+3. <dialog>
+
+Description: Represents a dialog box or popup.
+Attributes: open (makes the dialog visible).
+Example:
+ 
+
+ 
+
+<dialog open>This is a dialog box!</dialog>
+
+Output: Displays a simple dialog box.
+4. <abbr>
+
+Description: Defines an abbreviation or acronym.
+Attributes: title (provides the full form of the abbreviation).
+Example:
+ 
+
+ 
+
+<abbr title="HyperText Markup Language"></abbr>
+
+Output: Hovering over "" shows "HyperText Markup Language."
+5. <progress>
+
+Description: Displays progress of a task.
+Attributes: value (current progress), max (total).
+Example:
+ 
+
+ 
+
+<progress value="50" max="100">50%</progress>
+
+Output: A progress bar filled halfway.
+6. <meter>
+
+Description: Displays a measurement or range.
+Attributes: value, min, max, low, high, optimum.
+Example:
+ 
+
+ 
+
+<meter value="75" min="0" max="100" low="40" high="90">75%</meter>
+
+Output: A visual gauge with a fill at 75%.
+7. <bdo>
+
+Description: Overrides the text direction.
+Attributes: dir (specifies direction: ltr, rtl).
+Example:
+ 
+
+ 
+
+<bdo dir="rtl">Reversed text!</bdo>
+
+Output: Text is displayed right-to-left.
+8. <ruby>
+
+Description: Displays ruby annotations (commonly used in East Asian text).
+Attributes: Works with <rt> and <rp>.
+Example:
+ 
+
+ 
+
+<ruby>
+
+  漢 <rt>kan</rt>
+
+  字 <rt>ji</rt>
+
+</ruby>
+
+ 
+
+<ruby>
+
+  Base Text
+
+  <rt>Ruby Text</rt>
+
+</ruby>
+
+ 
+
+<p>
+
+  Learn Japanese Kanji:
+
+  <ruby>
+
+    漢字
+
+    <rt>Kanji</rt>+
+
+  </ruby>
+
+</p>
+
+Output: Characters "漢" and "字" are annotated with "kan" and "ji."
+9. <mark>
+
+Description: Highlights text.
+Attributes: None.
+Example:
+ 
+
+ 
+
+<p>This is <mark>important</mark> text.</p>
+
+Output: "important" text appears with a yellow background.

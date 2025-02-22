@@ -1,0 +1,67 @@
+.one
+{
+    border: 5px solid black;
+    height: 150px;
+    width: 200px;
+}
+#orange
+{
+    border: 1px;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(251, 83, 5);
+}
+#white
+{
+    border: 1px;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+}
+.two
+{
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin-left: 5px;
+    height: 47px;
+    width: 50px;
+    background-color: blue;
+}
+#green
+{
+    border: 1px;
+    height: 50px;
+    width: 200px;
+    background-color: green;
+}
+.three
+{
+    height: 350px;
+    width: 10px;
+    background-color: black;
+    margin-right: 200px;
+}
+.four
+{
+    border: 2px;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    margin-right: 195px;
+}
+.five
+{
+    border: 2px;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    margin-right: 195px;
+}
+.six
+{
+    border: 2px;
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    margin-right: 195px;
+}

@@ -1,0 +1,46 @@
+.black{
+    background-color: black;
+    height: 400px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+
+}
+#one{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 45px;
+}
+#two{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: 45px;
+}
+#three{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: 45px;
+}
+.one{
+    height: 350px;
+    width: 50px;
+    background-color: black;
+    margin-left: 10px;
+}
+#four{
+    height: 50px;
+    width: 150px;
+    border: 5px solid black;
+    background-color: black;
+    margin-left: 15px;
+}

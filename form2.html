@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Opening</title>
+</head>
+<body>
+    <div align="center">
+        <h1 align="center">Account Opening</h1><hr color="black">
+        <h3><u>Personal Detail</u></h3>
+        <form name="Account" method="post">
+            <table >
+                <tbody>
+                    <tr>
+                        <td><label>First Name </label></td>
+                        <td>
+                            <input type="text" name="fullname" placeholder="Name of Person" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Middle Name </label></td>
+                        <td>
+                            <input type="text" name="middlename" placeholder="middlename" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Last Name</label></td>
+                        <td><input type="text" name="lastname" placeholder="lastname"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email ID</label></td>
+                        <td><input type="email" name="mail" placeholder="your email"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Date Of Birth</label></td>
+                        <td><input type="date" name="date"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Gender</label></td>
+                        <td>
+                            <input type="radio" name="Gender" value="Male"/>Male
+                            <input type="radio"name="Gender" value="Female"/>Female
+                            <input type="radio" name="Gender" value="Others"/>Others
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Marital status</label></td>
+                        <td>
+                            <input type="radio" name="Marital status" placeholder="Unmarried"/>Unmarried
+                            <input type="radio" name="Marital status" placeholder="Married"/>Married
+                            <input type="radio" name="Marital status" placeholder="Others"/>Others
+                    </tr>
+                    <tr>
+                        <td><label>Contact Number</label></td>
+                        <td>
+                            <input type="number" name="tel" placeholder="mobile number" />
+                            <input type="number" name="tel" placeholder="optional number"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Address</label></td>
+                        <td>
+                            <textarea name="Address">
+                            </textarea>                       
+                         </td>
+                    </tr>
+                    <tr>
+                        <td><label>City</label></td>
+                        <td>
+                            <input type="text" name="city" placeholder="city" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>State</label></td>
+                        <td>
+                            <select name="state">
+                                <option>select state</option>
+                                <option>TAMIL NADU</option>
+                                <option>ANDHRA</option>
+                                <option>Kerala</option>
+                                <option>Delhi</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Country</label></td>
+                        <td>
+                            <select name="country">
+                                <option>select state</option>
+                                <option>Italy</option>
+                                <option>France</option>
+                                <option>USA</option>
+                                <option>Spain</option>
+                                <option>India</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Citizenship</label></td>
+                        <td>
+                            <input type="radio" name="Citizenship" value="Indian" />Indian
+                            <input type="radio" name="Citizenship" value="Anglo Indian"/>Anglo Indian
+                            <input type="radio" name="Citizenship" value="Others" />Others
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Education Level</label>
+                        </td>
+                        <td>
+                        <input type="radio" name="educationlevel" value="PG"/>Pg
+                        <input type="radio" name="educationlevel" value="UG"/>UG
+                        <input type="radio" name="educationlevel" value="SSLC"/>SSLC
+                        <input type="radio" name="educationlevel" value="HSC"/>HSC
+                        <input type="radio" name="educationlevel" value="Below these"/>Below these
+                        </td>
+                    </tr>
+                </tbody>
+            </table>    
+        </form> 
+    </div>
+    <div align="center">
+     <h3><u>Proof Of Identity Attached</u></h3>
+        <table>
+            <tbody>
+            
+                <tr>
+                    <td><label>Aadhar</label></td>
+                    <td>
+                        <input type="radio" name="aadhar" value="Yes"/>Yes
+                        <input type="radio" name="aadhar" value="No"/>No
+                        <input type="file" name="aadhar"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Pan</label></td>
+                    <td>
+                        <input type="radio" name="Pan" value="Yes"/>Yes
+                        <input type="radio" name="Pan" value="No"/>No
+                        <input type="file" name="Pan"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Passport</label></td>
+                    <td>
+                        <input type="radio" name="Passport" value="Yes"/>Yes
+                        <input type="radio" name="Passport" value="No"/>No
+                        <input type="file" name="Passport"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Driving Licence</label></td>
+                    <td>
+                        <input type="radio" name="Driving Licence" value="Yes"/>Yes
+                        <input type="radio" name="Driving Licence" value="No"/>No
+                        <input type="file" name="Driving Licence"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div align="center">
+        <h3><u>Account Type</u></h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label>Type Of Account</label></td>
+                    <td>
+                        <input type="radio" name="Type Of Account" value="Saving Account"/>Saving Account
+                        <input type="radio" name="Type Of Account" value="Current Account"/>Current Account
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Mobile Banking</label></td>
+                    <td>
+                        <input type="radio" name="Mobile Banking" value="Yes"/>Yes
+                        <input type="radio" name="Mobile Banking" value="No"/>No
+                    </td>
+                </tr>
+            </tbody>  
+        </table>  
+        </div>
+        <div>
+            <h3><u>Declaration</u></h3>
+            <form>
+                <p>
+                    <ul>
+                        <li> Above given informations are true to best of my knowledge.</li>
+                        <li> I accept all the terms and condition.</li>
+                    </ul>
+                </p>
+                <input type="radio" name="Declaration" value="Yes"/>Yes
+                <input type="radio" name="Declaration" value="No"/>No
+                <table align="center">
+                    <tbody>
+                        <tr>
+                            <td><input type="submit" value="Account Created">
+                            </td>
+                         </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+</body>
+</html>

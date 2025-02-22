@@ -1,0 +1,46 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.one{
+    font-weight: 600;
+    font-style: italic;
+}
+.two{
+    text-align: right;
+    font-size: 20px;
+}
+.three{
+    text-align: center;
+    font-size: small;
+}
+.four{
+    text-decoration: underline;
+    font-size: 30px;
+}
+h2{
+    text-transform: capitalize;
+}
+.five{
+    text-transform: lowercase;
+}
+.six{
+    line-height: 2.5;
+    letter-spacing: 3px;
+}
+h1{
+    text-shadow: 2px 2px 4px #888888;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.hover{
+    font-size: 18px;
+    color: rgb(254, 53, 53);
+    text-decoration: underline;
+}
+/* .seven{
+    font-family:url("/Poppins/Poppins-ThinItalic.ttf");
+} */
+ 
